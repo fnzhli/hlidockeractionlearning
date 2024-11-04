@@ -1,8 +1,7 @@
-name: CI Build for Docker Action
+name: hlidocker
 on:
   push:
     branches: [ main ]
-    paths: [ hello-world-docker-action/** ]
   workflow_dispatch:
 
 jobs:
